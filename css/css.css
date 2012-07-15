@@ -1,0 +1,306 @@
+/* CSS styles for /about.html, /contact.html, /events.html, /faq.html,
+   /home.html, /privacy.html, /safety.html, /template.html, /terms.html, 
+   /what.html */
+   
+ /*It looks like this was previously a part of a WordPress theme that which
+   is why there are so many unused styles. I commented some that looked like they
+   may be useful in the future, removed some, and moved the majority of the unused
+   styles to the bottom of the pages and marked them as 'previous styles didn't use'
+   */
+  
+/*Jacob T.
+Monday May 7, 2012*/
+
+
+#mapapp {
+	margin-top: 15px;
+	margin-left: 195px;
+	margin-right: auto;
+	text-align:center;
+}
+
+body{
+	background:url('');
+	font-family: "HelveticaNeue67MediumCondensed", "Helvetica Neue Condensed",
+	 "Helvetica", sans-serif; 
+}
+
+/*Wrap div centers page contents*/
+#wrap
+{
+    width: 940px;
+	margin: 0 auto;
+}
+
+/*Table on the events.html pag*/
+.events {
+	text-decoration:none;
+	color:rgb(81,105,107);
+	padding:20px 12px 0px 0px;
+	background-position:left top, left bottom, left top;
+	background-repeat:repeat-x,repeat-x, repeat;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:13px;
+	line-height:18px;
+	margin-bottom: 30px;
+}
+
+.events th, .events td{
+	text-decoration:none;
+	padding:8px;
+	line-height:18px;
+	text-align:left;
+	vertical-align:top;
+	border-top:1px solid rgb(221,221,221);
+	background-color:rgb(225,225,225);
+}
+/*Events table left button*/
+.btn {
+	text-decoration:none;
+	display:inline-block;
+	padding:4px 10px;
+	margin-bottom: 0pt;
+	font-size:13px;
+	line-height:18px;
+	color:rgb(51,51,51);
+	text-align:center;
+	text-shadow:rgb(255,255,255);
+	vertical-align:middle;
+	background-color:rgb(245,245,245);
+	background-repeat: repeat-x;
+	border-width:1px;
+	border-style:solid;
+	border-color:rgb(204,204,204) rgb(204,204,204) rgb(187,187,187);
+	border-radius:4px 4px 4px 4px;
+	box-shadow:0pt 1px 0pt rgba(255,255,255,0.2) inset, 0pt 1px 2px rgba(0,0,0,0.5);
+	cursor:pointer;
+	display:inline-block;
+}
+/*Events table right button*/
+.btn-success {
+	text-decoration:none;
+	background-color:rgb(91, 182, 91);
+	background-repeat:repeat-x;
+	border-color:rgb(81, 163, 81) rgb(81, 163, 81) rgb(56, 112, 56);
+}
+/*Table on the events.html pag*/
+
+/*bacground ID, works with .page-background3*/
+#page-background
+{
+    position: relative;
+    width:940px;
+    height: 100%;
+	background: url('..img/logoTransparent.png');
+    overflow: hidden;
+    background-color: #000000;
+    height: 320px;
+    
+}
+
+/*Top blue background image*/
+.page-backgroundtop
+{
+	background: url('..img/logoTransparent.png');
+    position: relative;
+    width:940px;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000000;
+    height: 220px;
+    width:940px;
+}
+
+/*These two divisions were used to hold the logo in the top left, did not use them on any current pages*/
+.top-left
+{
+    display: block;
+    position: relative;
+    top: 20px;
+    left: 600px;
+    width: 292px;
+    text-align:center;
+    height: 279px;
+    overflow: hidden;
+}
+
+
+
+.top-left-about
+{
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    overflow: hidden;
+}
+/*These two divisions were used to hold the logo in the top left, did not use them on any current pages*/
+
+/*All these are used on the home page to style the box, phone, and appstore button*/
+.top-center
+{
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 792px;
+    height: auto;
+    overflow: hidden;
+}
+
+
+
+.box
+{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    width: 500px;
+
+    height: auto;
+    overflow: hidden;
+}
+/*All these are used on the home page to style the box, phone, and appstore button*/
+
+
+
+/*The sytles for the bottom footer navigation bars*/
+.footer-wrap
+{
+    width:940px;
+	position: relative;
+    background-color: #000000;
+    text-align:center;
+    padding: 0px 0px 40px 0px;
+}
+
+
+
+.footer-wrap ul.nav-bottom {
+	padding: 20px 0px 40px 0px;
+}
+
+
+.footer-wrap ul.nav-bottom p{
+text-align:center;
+}
+
+
+.footer-wrap ul.nav-bottom li {
+	display: inline-block;
+	margin: 0px 20px 0px 0px;
+}
+
+
+
+.footer-wrap ul.nav-bottom li a {
+	display: block;
+	text-decoration: none;
+	font-family: "HelveticaNeue67MediumCondensed", "Helvetica Neue Condensed",
+	 "Helvetica", sans-serif;
+	color: #000000;
+	background:#ffffff;
+	font-size: 20px;
+	text-shadow: rgb(255,255,255) 0px 1px;
+	border-radius: 4px;
+	padding: 16px 16px 16px 16px;
+}
+
+
+
+.footer-wrap ul.nav-bottom li a:hover {
+	background: #DDD;
+	text-shadow: rgb(255,255,255) 0px 1px;
+}
+
+
+
+.footer-wrap p {
+	font-family: "HelveticaNeue67MediumCondensed", "Helvetica Neue Condensed",
+	 "Helvetica", sans-serif; 
+	font-size: 14px;
+	color: #777;
+	text-shadow: rgb(255,255,255) 0px 1px;
+	padding: 0px 0px 20px 0px;
+}
+
+
+
+.footer-wrap p a {
+	font-family: "HelveticaNeue67MediumCondensed", "Helvetica Neue Condensed",
+	 "Helvetica", sans-serif; 
+	color: #777;
+	text-decoration: none;
+	margin: 0px 0px 0px 20px;
+}
+/*The sytles for the bottom footer navigation bars*/
+
+/*Middle entry content styles, didn't see any use of .content or .entry-content.wide or .entry-content:after*/
+.entry-content p {
+ 	padding:0px 0px;
+ 	margin:5px 0px;
+ }
+
+ .entry-content li
+ {
+	margin: 0.0px 0.0px 0.0px 0.0px; 
+	line-height: 20.0px; 
+	font-family: "HelveticaNeue67MediumCondensed", "Helvetica Neue Condensed",
+	 "Helvetica", sans-serif; 
+	color: #000000;
+}
+
+.entry-content p span{
+ 	display:inline-block;
+ 	width:100px;
+ }
+ 
+
+.entry-content h1{
+ 	margin: 0px 0px 13px 0px;
+	line-height: 18.0px; 
+	font-family: "HelveticaNeue67MediumCondensed", "Helvetica Neue Condensed",
+	"Helvetica", sans-serif;
+	font-weight:bold;
+	letter-spacing:-0.085em;
+ 	margin-bottom:5px;
+ 	margin-top:25px;
+ 	color:#000000;
+ }
+
+.entry-content{
+	width:940px;
+	position:relative ;
+}
+
+.entry-content h2 {
+    margin: 0px 0px 13px 0px;
+	line-height: 18.0px; 
+	font-family: "HelveticaNeue67MediumCondensed", "Helvetica Neue Condensed",
+	"Helvetica", sans-serif; 
+	color: #000000;
+	font-weight:bold;
+	letter-spacing:-0.085em;
+ 	margin-bottom:5px;
+ 	margin-top:25px;
+}
+
+.entry-content p {
+	margin: 0.0px 0.0px 13.0px 0.0px; 
+	line-height: 18.0px; 
+	font: 13.0px Helvetica; 
+	color: #333333
+}
+
+.entry-content:after{
+	clear:both;
+}
+
+.entry-content.wide{
+	width:800px;
+}
+
+.entry-content video {
+	margin: 15px 0px 15px 0px;
+}
