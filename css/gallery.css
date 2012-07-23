@@ -1,0 +1,127 @@
+/*Jacob T.
+Tues. July 17, 2012*/
+
+body {
+    color: rgb(116, 155, 197);
+}
+
+ .gallery {
+    width: 940px;
+    border-radius: 8px 8px 8px 8px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+}
+
+.wrapper {
+    height: 300px;
+    width: 940px;
+    padding: 10px;
+        padding-top: 10px;
+        padding-right-value: 10px;
+        padding-bottom: 10px;
+        padding-left-value: 10px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+    overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    position: relative;
+    margin: 0px auto;
+        margin-top: 0px;
+        margin-right-value: auto;
+        margin-bottom: 0px;
+        margin-left-value: auto;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+}
+
+#coverflow {
+    display: block;
+    height: 600px;
+    width: 1600px;
+    padding: 42px;
+        padding-top: 42px;
+        padding-right-value: 42px;
+        padding-bottom: 42px;
+        padding-left-value: 42px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 50px;
+}
+
+img {
+    border: 0px none;
+        border-top-width: 0px;
+        border-right-width-value: 0px;
+        border-right-width-ltr-source: physical;
+        border-right-width-rtl-source: physical;
+        border-bottom-width: 0px;
+        border-left-width-value: 0px;
+        border-left-width-ltr-source: physical;
+        border-left-width-rtl-source: physical;
+        border-top-style: none;
+        border-right-style-value: none;
+        border-right-style-ltr-source: physical;
+        border-right-style-rtl-source: physical;
+        border-bottom-style: none;
+        border-left-style-value: none;
+        border-left-style-ltr-source: physical;
+        border-left-style-rtl-source: physical;
+        border-top-color: -moz-use-text-color;
+        border-right-color-value: -moz-use-text-color;
+        border-right-color-ltr-source: physical;
+        border-right-color-rtl-source: physical;
+        border-bottom-color: -moz-use-text-color;
+        border-left-color-value: -moz-use-text-color;
+        border-left-color-ltr-source: physical;
+        border-left-color-rtl-source: physical;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        -moz-border-image: none;
+}
+
+#coverflow img {
+    width: 160px;
+    height: 160px;
+    float: left;
+    position: relative;
+    margin: -3px;
+        margin-top: -3px;
+        margin-right-value: -3px;
+        margin-bottom: -3px;
+        margin-left-value: -3px;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+    cursor: pointer;
+}
+
+#picgallery {
+    background: url("img/split.png") no-repeat scroll center 10px transparent;
+        background-color: transparent;
+        background-image: url("img/split.png");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center 10px;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-size: auto auto;
+}
